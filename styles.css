@@ -1,0 +1,61 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding-top: 70px;
+    padding-left: 40px;
+    z-index: 1;
+}
+.sidebar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+#mainTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+#titleDescContainer{
+    margin: 0 auto;
+    width: 700px;
+}
+#titleDesc{
+    color: white;
+    font-size: 20px;
+}
+.whiteFont{
+    color: white;
+}
+.videoTitle{
+    font-size: 20px;
+}
+.videoPlayer{
+    width: 800px;
+}
+.videoContainer{
+    position: fixed;
+    left: 200px;
+}
+#smallTitle{
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+}
+#smallTitleContainer{
+    
+    left: 200px;
+}
+.sidebarBorders{
+
+}
+.sidebar span{
+    color: lightgray;
+    font-style: italic;
+    font-size: 23px;
+}
